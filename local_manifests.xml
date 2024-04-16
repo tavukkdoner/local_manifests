@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="mi-sdm439"
-           fetch="https://github.com/mi-sdm439"
-           revision="lineage-18.1" />
-
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a14/master" />
