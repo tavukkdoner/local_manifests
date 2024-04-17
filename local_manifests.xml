@@ -54,7 +54,7 @@
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="device" remote="phantom" revision="mithorium/a13/master"/>
+ <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="device" remote="phantom" revision="mithorium/lineage-21"/>
 
 <!-- try to fix libcxx -->
   <remove-project name="platform/external/libcxx" />
