@@ -53,5 +53,6 @@
  <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="device" remote="phantom" revision="mithorium/a13/master"/>
 
 <!-- try to fix libcxx -->
+  <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github" revision="lineage-20.0"/>
   </manifest>
