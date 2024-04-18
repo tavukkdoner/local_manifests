@@ -6,10 +6,10 @@
   <remote  name="phantom"
            fetch="https://github.com/PhantomEnigma"
            revision="a13/master" />
-  <!--
+  
   <remote  name="github"
            fetch="https://github.com" />
--->
+
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
@@ -56,8 +56,8 @@
  <!-- Kernel -->
  <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="device" remote="phantom" revision="mithorium/lineage-21"/>
 
-<!-- try to fix libcxx 
+<!-- try to fix libcxx -->
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github" revision="lineage-20.0"/>
-  -->
+  
   </manifest>
