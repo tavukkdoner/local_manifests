@@ -11,6 +11,9 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-21.0" />
 
+  <remote  name="togofire"
+           fetch="https://github.com/TogoFire"
+           revision="v4a" />
   
 
  <!-- Common -->
@@ -96,4 +99,7 @@
   <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
+
+  <!-- ViperFX -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="togofire" revision="v4a" />
 </manifest>
