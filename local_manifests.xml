@@ -14,6 +14,12 @@
   <remote  name="togofire"
            fetch="https://github.com/TogoFire"
            revision="v4a" />
+
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/14.0" />
   
 
  <!-- Common -->
@@ -102,6 +108,12 @@
 
   <!-- ViperFX -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="togofire" revision="v4a" />
-
   
+  <remove-project path="build/soong" />
+
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="tavukkdoner" >
+    <linkfile dest="Android.bp" src="root.bp" />
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+  </project>
+
 </manifest>
