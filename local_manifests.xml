@@ -14,12 +14,6 @@
   <remote  name="togofire"
            fetch="https://github.com/TogoFire"
            revision="v4a" />
-
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/14.0" />
   
 
  <!-- Common -->
@@ -109,9 +103,5 @@
   <!-- ViperFX -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="togofire" revision="v4a" />
 
-  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817" />
-  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" />
-  <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928" />
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817" remote="crdroid-gitlab" />
   
 </manifest>
