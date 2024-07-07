@@ -111,9 +111,13 @@
   
   <remove-project path="build/soong" />
 
-  <project path="build/soong" name="android_build_soong_rising" groups="pdk,tradefed" remote="tavukkdoner" revision="fourteen">
+  <project path="build/soong" name="android_build_soong_rising" groups="pdk,tradefed" remote="tavukkdoner" revision="fourteen_copy1">
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <remove-project path="frameworks/base" />
+
+  <project path="frameworks/base" name="android_frameworks_base_rising" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="tavukkdoner" revision="fourteen" />
+  
 </manifest>
