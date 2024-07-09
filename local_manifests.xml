@@ -6,6 +6,15 @@
   <remote  name="los"
            fetch="https://github.com/LineageOS"
            revision="lineage-21.0" />
+  <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/14.0" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-14.0.0_r53" />
   <!--
   <remote  name="github"
            fetch="https://github.com" />
@@ -23,6 +32,9 @@
  <!-- Mi439 -->
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mi-thorium"/>
 
-
+  <remove-project path="prebuilts/clang/host/linux-x86/clang-latest" />
+  <!-- <remove-project path="prebuilts/build-tools" /> -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r510928" remote="crdroid-gitlab" /> 
+  <!--<project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" /> -->
 
 </manifest>
