@@ -83,10 +83,10 @@
   <remove-project path="packages/apps/Updater" />
   <remove-project path="packages/overlays/Lineage" />
   <remove-project path="vendor/lineage" />
-  <remove-project path="hardware/qcom-caf/sm8150/audio" />
+  <!--<remove-project path="hardware/qcom-caf/sm8150/audio" />
   <remove-project path="hardware/qcom-caf/sm8150/display" />
   <remove-project path="hardware/qcom-caf/sm8150/media" />
-  <!--<remove-project path="vendor/nxp/nfc" />
+  <remove-project path="vendor/nxp/nfc" />
   <remove-project path="vendor/nxp/secure_element" />
   <remove-project path="vendor/nxp/secure_element_extns" />
   <remove-project path="lineage/charter" />
