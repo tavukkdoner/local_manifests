@@ -33,18 +33,6 @@
            fetch="https://github.com" />
 -->
 
-  <project path="device/xiaomi/Mi439" remote="los" name="android_device_xiaomi_Mi439" revision="lineage-21" />
-  <project path="device/xiaomi/mithorium-common" remote="los" name="android_device_xiaomi_mithorium-common" revision="lineage-21" />
-  <project path="kernel/xiaomi/msm8937" remote="los" name="android_kernel_xiaomi_msm8937" revision="lineage-21" />
-  
- <!-- Common -->
-  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mi-thorium"/>
-  <!--<project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>-->
-
-
- <!-- Mi439 -->
-  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mi-thorium"/>
-
   <remove-project path="build/make" />
   <remove-project path="build/soong" />
   <remove-project path="art" />
@@ -67,7 +55,7 @@
   <remove-project path="packages/apps/Nfc" />
   <remove-project path="packages/apps/Settings" />
   <remove-project path="packages/apps/ThemePicker" />
-  <remove-project path="packages/apps/Trebuchet" />
+  <!--<remove-project path="packages/apps/Trebuchet" />-->
   <remove-project path="packages/apps/WallpaperPicker2" />
   <remove-project path="packages/inputmethods/LatinIME" />
   <remove-project path="packages/modules/Bluetooth" />
@@ -98,7 +86,7 @@
   <remove-project path="hardware/qcom-caf/sm8150/audio" />
   <remove-project path="hardware/qcom-caf/sm8150/display" />
   <remove-project path="hardware/qcom-caf/sm8150/media" />
-  <remove-project path="vendor/nxp/nfc" />
+  <!--<remove-project path="vendor/nxp/nfc" />
   <remove-project path="vendor/nxp/secure_element" />
   <remove-project path="vendor/nxp/secure_element_extns" />
   <remove-project path="lineage/charter" />
@@ -108,7 +96,7 @@
   <remove-project path="lineage/website" />
   <remove-project path="lineage/wiki" />
   <remove-project path="lineage/contributors-cloud-generator" />
-  <remove-project path="lineage/scripts" />
+  <remove-project path="lineage/scripts" />-->
   
    <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
@@ -200,5 +188,18 @@
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/pixel-framework" name="crdroidandroid/android_vendor_pixel-framework" remote="crdroid" />
+
+  
+  <project path="device/xiaomi/Mi439" remote="los" name="android_device_xiaomi_Mi439" revision="lineage-21" />
+  <project path="device/xiaomi/mithorium-common" remote="los" name="android_device_xiaomi_mithorium-common" revision="lineage-21" />
+  <project path="kernel/xiaomi/msm8937" remote="los" name="android_kernel_xiaomi_msm8937" revision="lineage-21" />
+  
+ <!-- Common -->
+  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mi-thorium"/>
+  <!--<project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>-->
+
+
+ <!-- Mi439 -->
+  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mi-thorium"/>
   
 </manifest>
