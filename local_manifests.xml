@@ -93,7 +93,6 @@
   <remove-project path="packages/apps/Launcher3" />
   <remove-project path="packages/apps/Matlog" />
   <remove-project path="packages/apps/OmniStyle" />
-  <remove-project path="packages/apps/Settings" />
   <remove-project path="packages/services/OmniJaws" />
   <remove-project path="prebuilts/clang/host/linux-x86/clang-latest" />
   <remove-project path="vendor/addons" />
