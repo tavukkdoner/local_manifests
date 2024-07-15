@@ -25,6 +25,10 @@
   <remote  name="tavukkdoner"
            fetch="https://github.com/tavukkdoner"
            revision="lineage-21" />
+
+    <remote  name="togofire"
+           fetch="https://github.com/TogoFire"
+           revision="v4a" />
   
   <remote  name="crdroid-gitlab"
            fetch="https://gitlab.com/"
@@ -217,5 +221,8 @@
 
  <!-- Mi439 -->
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mi-thorium"/>
+
+  <!-- ViperFX -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="togofire" revision="v4a" />
   
 </manifest>
