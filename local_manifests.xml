@@ -117,6 +117,9 @@
   <remove-project path="lineage/wiki" />
   <remove-project path="lineage/contributors-cloud-generator" />
   <remove-project path="lineage/scripts" />-->
+  <remove-project path="vendor/qcom/opensource/libfmjni"/>
+
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-21.0" />
   
    <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
