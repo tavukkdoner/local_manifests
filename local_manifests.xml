@@ -46,7 +46,9 @@
 
 
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-21.0" />
-  
+
+  <remove-project path="packages/apps/Updater" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="tavukkdoner" revision="14.0" />
   
   <!--
   <project path="device/xiaomi/Mi439" remote="tavukkdoner" name="android_device_xiaomi_Mi439_LOS" revision="lineage-21" />
