@@ -59,6 +59,9 @@
 
   <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="android_vendor_crdroid" remote="tavukkdoner" revision="14.0" />
+
+  <remove-project path="frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="tavukkdoner" revision="14.0" />
   
   <!--
   <project path="device/xiaomi/Mi439" remote="tavukkdoner" name="android_device_xiaomi_Mi439_LOS" revision="lineage-21" />
