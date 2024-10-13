@@ -63,6 +63,8 @@
   <remove-project path="hardware/lineage/interfaces" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="tavukkdoner" revision="lineage-21.0" />
 
+  <remove-project path="hardware/qcom/wlan" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-21.0" />
   <!-- Disable HWC
   <remove-project path="frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="tavukkdoner" revision="14.0" />
