@@ -56,9 +56,9 @@
 
   <remove-project path="system/core" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="tavukkdoner" revision="14.0" />
-
-  <remove-project path="vendor/lineage" />
-  <project path="vendor/lineage" name="android_vendor_crdroid" remote="tavukkdoner" revision="14.0" />
+  
+  <!-- <remove-project path="vendor/lineage" />
+  <project path="vendor/lineage" name="android_vendor_crdroid" remote="tavukkdoner" revision="14.0" /> -->
 
   <remove-project path="hardware/lineage/interfaces" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="tavukkdoner" revision="lineage-21.0" />
