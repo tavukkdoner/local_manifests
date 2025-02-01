@@ -17,7 +17,9 @@
            fetch="https://gitlab.com/MindTheGapps"
            revision="upsilon" />
   
-  <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
+   <remote  name="tavukkdoner"
+           fetch="https://github.com/tavukkdoner"
+           revision="lineage-22.1" />
   
   <!--
   <remote  name="github"
@@ -117,6 +119,6 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
 
-  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom"/>
+  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="tavukkdoner" revision="qcom"/>
   
 </manifest>
