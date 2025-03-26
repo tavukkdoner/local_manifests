@@ -7,6 +7,10 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-22.2" />
 
+  <!-- Original mithorium local manifest no modifications -->
+  <!-- Credits 0xCAFEBABE -->
+  <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
+
   <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium" revision="a15_qpr2/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium" revision="a15_qpr2/master"/>
