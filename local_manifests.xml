@@ -16,6 +16,14 @@
   <remote  name="mindthegapps"
            fetch="https://gitlab.com/MindTheGapps"
            revision="vic" />
+
+
+  <remote  name="aosp1"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/tags/android-16.0.0_r2"
+           remote="aosp1"
+           sync-j="4" />
   
   
   <!-- Mithorium local manifest with modifications -->
@@ -23,6 +31,11 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
 
+  <remove-project path="prebuilts/clang/host/darwin-x86" />
+  <remove-project path="prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin,pdk,darwin,sysui-studio" clone-depth="1" remote="aosp1"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk,sysui-studio" clone-depth="1" remote="aosp1"/>
+  
 
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom" remote="los" revision="lineage-22.2" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" groups="qcom" remote="los" revision="lineage-22.2" />
