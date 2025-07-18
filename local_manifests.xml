@@ -41,7 +41,7 @@
   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="tavukkdoner" revision="a15/master-final" />
 
  <!-- Hardware -->
-  <project path="hardware/qcom-caf/msm8937/common" name="android_hardware_mithorium_common" groups="device" remote="tavukkdoner" revision="lineage-msm8937">
+  <project path="hardware/qcom-caf/msm8937/common" name="android_hardware_mithorium_common" groups="device" remote="tavukkdoner" revision="lineage-msm8937-a16">
     <linkfile src="_Android.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/qcom-caf/msm8937/mithorium_qcom_hals.mk" />
 
