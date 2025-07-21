@@ -46,7 +46,6 @@
     <linkfile src="_Android.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/qcom-caf/msm8937/mithorium_qcom_hals.mk" />
 
-    <!-- Disable it when Android.mk will be Android.bp -->
     <linkfile src="guard-generic.bp" dest="hardware/qcom-caf/msm8937/audio/Android.bp" />
 
     <!-- It overrides Android.bp -->
