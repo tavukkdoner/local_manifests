@@ -45,8 +45,7 @@
     <linkfile src="_Android.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/qcom-caf/msm8937/mithorium_qcom_hals.mk" />
 
-    <!-- disable it when Android.mk will be Android.bp -->
-    <!-- <linkfile src="guard-generic.bp" dest="hardware/qcom-caf/msm8937/audio/Android.bp" /> -->
+    <linkfile src="guard-generic.bp" dest="hardware/qcom-caf/msm8937/audio/Android.bp" />
     <!-- https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/437001 -->
 
     <!-- disable it. It overrrides Android.bp -->
