@@ -49,8 +49,7 @@
   <project path="hardware/qcom-caf/msm8937/common" name="android_hardware_mithorium_common" groups="device" remote="tavukkdoner" revision="lineage-msm8937">
     <linkfile src="_Android.mk" dest="hardware/qcom-caf/msm8937/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/qcom-caf/msm8937/mithorium_qcom_hals.mk" />
-
-    <!-- disable it when Android.mk will be Android.bp -->
+    
     <linkfile src="guard-generic.bp" dest="hardware/qcom-caf/msm8937/audio/Android.bp" />
 
     <!-- disable it. It overrrides Android.bp -->
