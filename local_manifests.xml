@@ -23,6 +23,7 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
 
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
 
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="lmkd16" groups="pdk" remote="tavukkdoner" revision="16" />
