@@ -70,7 +70,7 @@
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/a16" remote="tavukkdoner" >
+ <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/a16-2" remote="tavukkdoner" >
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
@@ -91,7 +91,7 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/xiaomi-sdm439" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/module/audio-legacy" name="kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master" remote="mi-thorium">
+  <project path="kernel/xiaomi/mithorium-4.19/module/audio-legacy" name="kernel_techpack_audio-legacy" groups="module" revision="audio/4.19/mithorium/master-16" remote="tavukkdoner">
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/techpack/audio-legacy" />
   </project>
   <project path="kernel/xiaomi/mithorium-4.19/module/camera-legacy" name="kernel_techpack_camera-legacy" groups="module" revision="camera/LA.UM.8.6.r1-05300-89xx.0/4.19/mithorium" remote="mi-thorium" >
