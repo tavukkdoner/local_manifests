@@ -16,12 +16,6 @@
   <!-- <remote  name="mindthegapps"
            fetch="https://gitlab.com/MindTheGapps"
            revision="vic" /> -->
-
-  <remove-project path="device/qcom/sepolicy_vndr/legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="bka-legacy-um" remote="tavukkdoner" />
-
-  <remove-project path="vendor/infinity" />
-  <project path="vendor/infinity" name="vendor_infinity" remote="tavukkdoner" revision="16" />
   
   
   <!-- Mithorium local manifest with modifications -->
