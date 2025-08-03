@@ -12,7 +12,7 @@
     <project name="samsung-sm8350/android_device_qcom_common" path="device/qcom/common" remote="ghub" revision="lineage-22" />
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="ghub" revision="lineage-23.0" />
     <!-- Vendor Tree -->
-    <project name="samsung-sm8350/proprietary_vendor_samsung" path="vendor/samsung" remote="ghub" revision="lineage-22" />
+    <project name="samsung-sm8350/proprietary_vendor_samsung" path="vendor/samsung" remote="ghub" revision="lineage-22.1" />
 	
     <project name="samsung-sm8350/android_device_samsung_b2q" path="device/samsung/b2q" remote="ghub" revision="lineage-22" />
 </manifest>
