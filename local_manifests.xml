@@ -14,5 +14,5 @@
     <!-- Vendor Tree -->
     <project name="samsung-sm8350/proprietary_vendor_samsung" path="vendor/samsung" remote="ghub" revision="lineage-22.1" />
 	
-    <project name="samsung-sm8350/android_device_samsung_b2q" path="device/samsung/b2q" remote="ghub" revision="lineage-22" />
+    <project name="tavukkdoner/android_device_samsung_b2q" path="device/samsung/b2q" remote="ghub" revision="lineage-22" />
 </manifest>
