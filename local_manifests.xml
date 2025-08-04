@@ -7,7 +7,7 @@
 		   
     <!-- Samsung SM8350 Common Trees -->
     <project name="tavukkdoner/android_device_samsung_sm8350-common" path="device/samsung/sm8350-common" remote="ghub" revision="flip3" />
-    <project name="samsung-sm8350/android_kernel_samsung_sm8350" path="kernel/samsung/sm8350" remote="ghub" revision="lineage-22" />
+    <project name="samsung-sm8350/android_kernel_samsung_sm8350" path="kernel/samsung/sm8350" remote="ghub" revision="flip3" />
     <!-- Dependencies -->
     <project name="samsung-sm8350/android_device_qcom_common" path="device/qcom/common" remote="ghub" revision="lineage-22" />
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="ghub" revision="lineage-23.0" />
