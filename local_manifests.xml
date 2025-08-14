@@ -40,7 +40,7 @@
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="tavukkdoner" revision="lineage-22.2" /> -->
   
   <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="tavukkdoner" revision="a16/axion"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="tavukkdoner" revision="a16/axion-test"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a15_qpr2/master"/>
 
@@ -68,7 +68,7 @@
   <project path="hardware/qcom-caf/msm8937/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="tavukkdoner" revision="mithorium/msm8937"/>
   
  <!-- Mi439 -->
-  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="tavukkdoner" revision="a16/axion"/>
+  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="tavukkdoner" revision="a16/axion-test"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="tavukkdoner" revision="a15/master-final"/>
   
 
