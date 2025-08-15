@@ -22,7 +22,9 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
-
+  <remove-project path="vendor/voltage" />
+  <project path="vendor/voltage" name="vendor_voltage" remote="tavukkdoner" revision="16" />
+  
   <remove-project path="device/qcom/sepolicy_vndr/legacy-um" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="tavukkdoner" revision="16" />
   
