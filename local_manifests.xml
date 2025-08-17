@@ -22,9 +22,6 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
-  <remove-project path="hardware/qcom-caf/wlan" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,lanai-vendor" remote="los" revision="lineage-22.2-caf" />
-  
   <remove-project path="vendor/voltage" />
   <project path="vendor/voltage" name="vendor_voltage" remote="tavukkdoner" revision="16" />
   
