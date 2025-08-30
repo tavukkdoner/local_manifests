@@ -30,6 +30,10 @@
 
   <remove-project path="packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="tavukkdoner" revision="16.0-1" />
+
+  <remove-project path="hardware/qcom/wlan" />
+  
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.0"/>
   <!-- only for crdroid -->
   
   <remove-project path="device/qcom/sepolicy-legacy-um" />
