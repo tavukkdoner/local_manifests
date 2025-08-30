@@ -23,7 +23,7 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
 
-  <!-- only for crdroid -->
+  <!-- only for crdroid 
   <remove-project path="packages/modules/adb" />
   
   <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="tavukkdoner" revision="lineage-23.0" />
@@ -34,7 +34,7 @@
   <remove-project path="hardware/qcom/wlan" />
   
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.0"/>
-  <!-- only for crdroid -->
+  only for crdroid -->
   
   <remove-project path="device/qcom/sepolicy-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="tavukkdoner" groups="qcom,sdm660"  revision="lineage-23.0-legacy-um"/>
