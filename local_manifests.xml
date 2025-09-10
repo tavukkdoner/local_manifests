@@ -23,6 +23,10 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
 
+  <remove-project path="packages/apps/LMOFreeform"/>
+  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="tavukkdoner" revision="16.0-1" />
+
+  
   <remove-project path="packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="tavukkdoner" revision="16.0-1" />
 
