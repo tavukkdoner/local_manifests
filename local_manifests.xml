@@ -23,6 +23,10 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
 
+  <remove-project path="hardware/qcom-caf/wlan" />
+  
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,lanai-vendor" remote="tavukkdoner" revision="lineage-23.0-caf-test" />
+  
   <remove-project path="art"/>
   <project path="art" name="android_art" groups="pdk" remote="tavukkdoner" revision="16.0" />
   
