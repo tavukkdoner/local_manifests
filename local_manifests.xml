@@ -22,31 +22,26 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
-
-  <remove-project path="hardware/qcom-caf/wlan" />
-  <project path="hardware/qcom-caf/wlan" name="wlan" groups="qcom,lanai-vendor" remote="tavukkdoner" revision="main" />
   
   <remove-project path="art"/>
   <project path="art" name="android_art" groups="pdk" remote="tavukkdoner" revision="16.0" />
   
-  <remove-project path="packages/apps/LMOFreeform"/>
-  <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="tavukkdoner" revision="16.0-1" />
-
-  
   <remove-project path="packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="tavukkdoner" revision="16.0-1" />
 
-  <!--
+  
   <remove-project path="hardware/qcom/wlan" />
   
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.0"/>
-  -->
+  
   
   <remove-project path="frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="tavukkdoner" revision="16.0" />
-  
+
+  <!--
   <remove-project path="device/qcom/sepolicy-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="tavukkdoner" groups="qcom,sdm660"  revision="lineage-23.0-legacy-um"/>
+  -->
   
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="lmkd16" groups="pdk" remote="tavukkdoner" revision="16" />
@@ -95,7 +90,7 @@
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/master-test5-1" remote="tavukkdoner" >
+ <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/master-test4" remote="tavukkdoner" >
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
