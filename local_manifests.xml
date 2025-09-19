@@ -22,8 +22,8 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
-  <remove-project path="hardware/interfaces" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="tavukkdoner" revision="sixteen" />
+  <remove-project path="hardware/libhardware" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="tavukkdoner" revision="sixteen" />
   <remove-project path="hardware/qcom/wlan" />
   
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.0"/>
