@@ -26,17 +26,11 @@
   <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="vendor_evolution" remote="tavukkdoner" revision="bka" />
   
-  <remove-project path="device/qcom/sepolicy_vndr/legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="bka-legacy-um" remote="tavukkdoner" />
-  
-  <remove-project path="device/qcom/sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="tavukkdoner" groups="qcom,sdm660"  revision="lineage-22.2-legacy-um"/>
-  
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="lmkd16" groups="pdk" remote="tavukkdoner" revision="16" />
   
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-22.2" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-23.0" />
 
   <!-- 
   <remove-project path="hardware/lineage/interfaces" />
