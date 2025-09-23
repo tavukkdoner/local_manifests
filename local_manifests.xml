@@ -22,7 +22,11 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
-
+  <remove-project path="hardware/qcom-caf/wlan" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,lanai-vendor" remote="los" revision="lineage-23.0-caf" />
+  
+  <remove-project path="packages/apps/Etar" />
+  
   <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="vendor_evolution" remote="tavukkdoner" revision="bka" />
   
