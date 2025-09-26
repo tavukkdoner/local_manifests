@@ -22,6 +22,8 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
+  <remove-project path="vendor/lineage" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="tavukkdoner" revision="15.0"  />
   <remove-project path="hardware/lineage/interfaces" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" revision="lineage-22.2" />
   
