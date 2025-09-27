@@ -23,9 +23,7 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
   <remove-project path="vendor/lineage" />
-  <project path="vendor/lineage" name="android_vendor_lineage" remote="tavukkdoner" revision="15.0"  />
-  <remove-project path="hardware/lineage/interfaces" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" revision="lineage-22.2" />
+  <project path="vendor/lineage" name="vendor_evolution" remote="tavukkdoner" revision="vic1" />
   
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" groups="pdk" remote="tavukkdoner" revision="15.0" />
@@ -38,7 +36,7 @@
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="tavukkdoner" revision="lineage-22.2" /> -->
   
   <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="tavukkdoner" revision="a15/matrixx"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="tavukkdoner" revision="a15/final"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a15_qpr2/master"/>
 
