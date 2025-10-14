@@ -22,6 +22,8 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
+  <remove-project path="hardware/qcom/wlan" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.0"/>
   
   <remove-project path="vendor/qcom/opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.0" /> 
