@@ -79,7 +79,7 @@
 
  <!-- Kernel -->
   <!-- For KSU-Next change revision mithorium/a13/a16-ksu -->
- <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/a16-ksu" remote="tavukkdoner" >
+ <project path="kernel/xiaomi/mithorium-4.19/kernel" name="kernel_msm-4.19" groups="kernel" revision="mithorium/a13/a16-ksu-ram" remote="tavukkdoner" >
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
