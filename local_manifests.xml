@@ -29,7 +29,7 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.0" /> 
   
   <remove-project path="vendor/lineage" />
-  <project path="vendor/lineage" name="vendor_evolution" remote="tavukkdoner" revision="bka" />
+  <project path="vendor/lineage" name="vendor_evolution" remote="tavukkdoner" revision="bq1" />
   
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="lmkd16" groups="pdk" remote="tavukkdoner" revision="16" />
