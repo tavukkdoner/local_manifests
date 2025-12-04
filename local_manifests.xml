@@ -24,10 +24,10 @@
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
   <remove-project path="vendor/qcom/opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.0" /> 
-  
+  <!--
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd_axion" groups="pdk" remote="tavukkdoner" revision="lineage-23.0" />
-  
+  -->
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-23.0" />
 
