@@ -26,7 +26,7 @@
   <project path="system/core" name="system_core_evo" groups="pdk" remote="tavukkdoner" revision="bq1" />
   <remove-project path="packages/apps/Recorder" />
   <remove-project path="hardware/qcom/wlan" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.0"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.1"/>
   
   <remove-project path="vendor/qcom/opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.0" /> 
@@ -40,7 +40,7 @@
   -->
   
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-23.0" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-23.1" />
 
   <!-- 
   <remove-project path="hardware/lineage/interfaces" />
