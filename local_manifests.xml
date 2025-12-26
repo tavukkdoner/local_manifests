@@ -54,7 +54,7 @@
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/qcom-caf/msm8937/display/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="los" revision="lineage-23.0"/>
+  <project path="hardware/qcom-caf/msm8937/display/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="los" revision="lineage-23.1"/>
 
  <!-- Hardware - LA.UM.9.6.3 -->
   <project path="hardware/qcom-caf/msm8937/audio" name="android_hardware_qcom_audio_mithorium" groups="device" remote="tavukkdoner" revision="mithorium/msm8937-a16"/>
