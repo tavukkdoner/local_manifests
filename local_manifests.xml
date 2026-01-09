@@ -22,14 +22,11 @@
   <!-- Credits 0xCAFEBABE -->
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
-  <remove-project path="system/core" />
-  <project path="system/core" name="system_core_evo" groups="pdk" remote="tavukkdoner" revision="bq1" />
-  <remove-project path="packages/apps/Recorder" />
   <remove-project path="hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.1"/>
   
   <remove-project path="vendor/qcom/opensource/vibrator" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.0" /> 
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.1" /> 
   
   <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="vendor_evolution" remote="tavukkdoner" revision="bq1" />
@@ -67,7 +64,7 @@
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/qcom-caf/msm8937/display/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="los" revision="lineage-22.2"/>
+  <project path="hardware/qcom-caf/msm8937/display/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="los" revision="lineage-23.1"/>
 
  <!-- Hardware - LA.UM.9.6.3 -->
   <project path="hardware/qcom-caf/msm8937/audio" name="android_hardware_qcom_audio_mithorium" groups="device" remote="tavukkdoner" revision="mithorium/msm8937-a16"/>
