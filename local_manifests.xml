@@ -25,7 +25,7 @@
   <remove-project path="packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="tavukkdoner" revision="16.0" />
   <remove-project path="vendor/qcom/opensource/vibrator" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.1" /> 
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="tavukkdoner" revision="lineage-23.2" /> 
   <remove-project path="art"/>
   <project path="art" name="android_art" groups="pdk" remote="tavukkdoner" revision="16.0" />
   
@@ -35,7 +35,7 @@
   
   <remove-project path="hardware/qcom/wlan" />
   
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.1"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-23.2"/>
   
   <!--
   <remove-project path="frameworks/base" />
@@ -52,10 +52,10 @@
   -->
   
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-23.1" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="tavukkdoner" revision="lineage-23.2" />
 
   <remove-project path="hardware/lineage/interfaces" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="tavukkdoner" revision="lineage-23.1" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="tavukkdoner" revision="lineage-23.2" />
   
   <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="tavukkdoner" revision="a16/final"/>
@@ -78,7 +78,7 @@
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/qcom-caf/msm8937/display/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="los" revision="lineage-23.1"/>
+  <project path="hardware/qcom-caf/msm8937/display/display" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="los" revision="lineage-23.2"/>
 
  <!-- Hardware - LA.UM.9.6.3 -->
   <project path="hardware/qcom-caf/msm8937/audio" name="android_hardware_qcom_audio_mithorium" groups="device" remote="tavukkdoner" revision="mithorium/msm8937-a16"/>
