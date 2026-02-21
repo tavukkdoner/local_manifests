@@ -23,7 +23,7 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
   <remove-project path="build/make" />
-  <project path="build/make" name="build_make" remote="tavukkdoner" revision="sixteen" >
+  <project path="build/make" name="build_make1" remote="tavukkdoner" revision="sixteen" >
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
