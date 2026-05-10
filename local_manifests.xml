@@ -10,6 +10,10 @@
            fetch="https://github.com/tavukkdoner"
            revision="lineage-22.2" />
 
+
+  <remote  name="crdroid1"
+           fetch="https://github.com/crdroidandroid"
+           revision="16.0" />
     <remote  name="togofire"
            fetch="https://github.com/TogoFire"
            revision="v4a" />
@@ -121,6 +125,7 @@
   <!-- MindTheGapps -->
   <!-- <project path="vendor/gapps" name="vendor_gapps" remote="mindthegapps" revision="vic" /> -->
   <project path="vendor/mp" name="vendor_magicportrait" remote="tavukkdoner" revision="main" />
+  <project path="hardware/dolby" name="android_hardware_dolby" remote="crdroid1" revision="16.0" />
   <!-- RevampedFMRadio -->
   <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="tavukkdoner" revision="qcom"/>
   
