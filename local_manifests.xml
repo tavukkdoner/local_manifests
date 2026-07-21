@@ -23,7 +23,7 @@
   <!-- Credits tavukkdoner -->
   <!-- https://github.com/Mi-Thorium/local_manifests and https://github.com/Mi-Thorium/kernel_manifest/tree/mithorium-4.19 -->
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="los" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" />
-  <remove-project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <!--<remove-project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" /> -->
   <remove-project path="hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="tavukkdoner" revision="lineage-24.0"/>
   
